@@ -1,0 +1,137 @@
+{
+    "home": {
+      "name": "Vinay Surisetty",
+      "title": "A MERN STACK WEB DEVELOPER",
+      "desc": "I’m a MERN full-stack web developer, specializing in building responsive front-end applications with seamless back-end integration. Passionate about delivering user-focused solutions that are scalable, efficient, and high-performing."
+    },
+    "about" : {
+        "aboutme1": "I am Vinay, a skilled MERN Stack Developer with 2 years of experience building responsive and dynamic web applications using cutting-edge technologies like React.js, Next.js, Node.js, and MongoDB. I have a proven track record of developing scalable RESTful APIs and managing efficient database operations.",
+        "aboutme2": "I am passionate about leveraging my expertise to create seamless user experiences and robust backend solutions. With a growing interest in blockchain technology, I am eager to expand my knowledge in decentralized applications and contribute to innovative projects in the Web3 space.",
+        "profile" : "/assets/About/my-profile.jpg"
+    },
+    "skills" : [
+        {
+            "name" : "HTML",
+            "image" :"/assets/skills/html.png"
+        },
+        {
+            "name" : "CSS",
+            "image" :"/assets/skills/css.png"
+        },
+        {
+            "name" : "SASS",
+            "image" :"/assets/skills/sass.png"
+        },
+        {
+            "name" : "Tailwind",
+            "image" :"/assets/skills/tailwind.png"
+        },
+        {
+            "name" : "Material-UI",
+            "image" :"/assets/skills/mui.png"
+        },
+        {
+            "name" : "Javascript",
+            "image" :"/assets/skills/javascript.png"
+        },
+        {
+            "name" : "ReactJs",
+            "image" :"/assets/skills/react.png"
+        },
+        {
+            "name" : "Redux",
+            "image" :"/assets/skills/Redux.png"
+        },
+        {
+            "name" : "NextJs",
+            "image" :"/assets/skills/nextjs.png"
+        },
+        {
+            "name" : "NodeJs",
+            "image" :"/assets/skills/node.png"
+        },
+        {
+            "name" : "Express",
+            "image" :"/assets/skills/express.png"
+        },
+        {
+            "name" : "Mongodb",
+            "image" :"/assets/skills/mongo.png"
+        },
+        {
+            "name" : "MY-SQL",
+            "image" :"/assets/skills/mysql.png"
+        },
+        {
+            "name" : "Git",
+            "image" :"/assets/skills/git.png"
+        },
+        {
+            "name" : "GitHub",
+            "image" :"/assets/skills/github1.png"
+        }
+    ],
+    "projects": [
+        {
+            "id": "1",
+            "name": "Chat-Application",
+            "title": "React JS",
+            "image": "/assets/projects/chat.png",
+            "stack": "ReactJs/SASS",
+            "url": "/project/1",
+            "demo": "/demo/1",
+            "desc":"I developed a Real-Time Chat Application using the MERN stack, designed for seamless communication across devices, similar to modern messaging platforms like WhatsApp. The app features real-time one-on-one and group chat functionality, powered by Socket.io for instant messaging and updates. Users can create groups, manage participants, and group admins have control over group settings. The frontend is built with React.js and styled using SCSS for a fully responsive, modern design across mobile, tablet, and desktop. To enhance performance, lazy loading is implemented to load chat messages only when needed, improving app speed and responsiveness. The backend, powered by Node.js and Express.js, handles APIs and real-time communication, while MongoDB stores user data and chat histories. The application also incorporates JWT-based authentication for secure login and session management. Additional features include a typing indicator and optimization for smooth performance on all devices.",
+            "githubLink": "https://github.com/0xv1n4y/Realtime-Chat-Application",
+            "technologies": ["ReactJs", "SCSS", "NodeJs", "ExpressJs", "MongoDB", "WebSockets", "JWT"]
+        },
+        {
+            "id": "2",
+            "name": "Online Grocery-Store",
+            "title": "Next JS",
+            "stack": "NextJs/SASS",
+            "image": "/assets/projects/grocery-hub.png",
+            "url": "/project/2",
+            "demo": "/demo/2",
+            "desc":"I developed a full-stack online grocery store with complete e-commerce functionality, offering users a smooth and intuitive experience for browsing, filtering, and purchasing groceries. The project uses Next.js for server-side rendering and performance optimization, Redux for efficient state management, and Material-UI for a modern, responsive interface across all devices. Styling is managed with SCSS for easy customization. The backend is built with Node.js APIs and MongoDB for scalable data management. Key features include dynamic product filtering, secure JWT authentication with cookies for session management, and Stripe integration for reliable online payments.",
+            "githubLink": "https://github.com/0xv1n4y/Online-Grocery-Store",
+            "technologies": ["NextJs", "SASS", "NodeJs", "ExpressJs", "MongoDB", "Stripe"]
+        },
+        {
+            "id": "3",
+            "name": "HTML Text Editor",
+            "title": "React JS",
+            "stack": "ReactJs/SASS",
+            "image": "/assets/projects/TextEditor.png",
+            "url": "/project/3",
+            "demo": "/demo/3",
+            "desc":"I recently developed a Live HTML Message Editor using React and React-Quill, designed to make message formatting intuitive and user-friendly. The editor includes features such as bold text, color customization, and text highlighting, enabling users to easily format their messages. As users type, the editor dynamically generates the corresponding HTML and displays it instantly in a live preview pane, allowing them to see the formatted output in real-time.",
+            "githubLink": "https://github.com/0xv1n4y/HTML-Texteditor",
+            "technologies": ["ReactJs", "SASS", "JavaScript", "MaterialUI"]
+        },
+        {
+            "id": "4",
+            "name": "Crypto-Tracker",
+            "title": "React JS",
+            "stack": "ReactJs",
+            "image": "/assets/projects/crypto-world.png",
+            "url": "/project/4",
+            "demo": "/demo/4",
+            "desc":"This web application fetches live cryptocurrency prices in both rupees and US dollars using the CoinGecko API. It displays real-time data, including rank, profit and loss, and integrates Chart.js for graphical representation. User authentication is implemented using Firebase, providing a secure and personalized experience.",
+            "githubLink": "https://github.com/0xv1n4y/crypto-world",
+            "technologies": ["ReactJs", "Firebase", "JWT"]
+        }
+    ],
+    "contact":{
+        "name":"Vinay Surisetty",
+        "title":"MERN Stack Web Developer",
+        "desc":"I am available for freelance or full-time positions. Contact me, and let's talk!",
+        "image":"/assets/contact/contact.jpg"
+    },
+    "links" : {
+        "linkedin" : "https://www.linkedin.com/in/vinaysurisetty/",
+        "github" : "https://github.com/0xv1n4y/vinay",
+        "mail" : "vinaysurisetty02@gmail.com",
+        "phone" : "+916301355109"
+    }
+  }
+  
