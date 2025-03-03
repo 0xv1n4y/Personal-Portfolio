@@ -5,7 +5,7 @@
       "desc": "I’m a MERN full-stack web developer, specializing in building responsive front-end applications with seamless back-end integration. Passionate about delivering user-focused solutions that are scalable, efficient, and high-performing."
     },
     "about" : {
-        "aboutme1": "I am Vinay, a skilled MERN Stack Developer with 2 years of experience building responsive and dynamic web applications using cutting-edge technologies like React.js, Next.js, Node.js, and MongoDB. I have a proven track record of developing scalable RESTful APIs and managing efficient database operations.",
+        "aboutme1": "I am Vinay, a skilled MERN Stack Developer with experience building responsive and dynamic web applications using cutting-edge technologies like React.js, Next.js, Node.js, and MongoDB. I have a proven track record of developing scalable RESTful APIs and managing efficient database operations.",
         "aboutme2": "I am passionate about leveraging my expertise to create seamless user experiences and robust backend solutions. With a growing interest in blockchain technology, I am eager to expand my knowledge in decentralized applications and contribute to innovative projects in the Web3 space.",
         "profile" : "/assets/About/my-profile.jpg"
     },
@@ -86,15 +86,15 @@
         },
         {
             "id": "2",
-            "name": "Online Grocery-Store",
-            "title": "Next JS",
-            "stack": "NextJs/SASS",
-            "image": "/assets/projects/grocery-hub.png",
+            "name": "Ecommers-Application",
+            "title": "React JS",
+            "stack": "ReactJs/CSS",
+            "image": "/assets/projects/ecommers.png",
             "url": "/project/2",
             "demo": "/demo/2",
-            "desc":"I developed a full-stack online grocery store with complete e-commerce functionality, offering users a smooth and intuitive experience for browsing, filtering, and purchasing groceries. The project uses Next.js for server-side rendering and performance optimization, Redux for efficient state management, and Material-UI for a modern, responsive interface across all devices. Styling is managed with SCSS for easy customization. The backend is built with Node.js APIs and MongoDB for scalable data management. Key features include dynamic product filtering, secure JWT authentication with cookies for session management, and Stripe integration for reliable online payments.",
-            "githubLink": "https://github.com/0xv1n4y/Online-Grocery-Store",
-            "technologies": ["NextJs", "SASS", "NodeJs", "ExpressJs", "MongoDB", "Stripe"]
+            "desc":"I developed an e-commerce application focused on clothing, with a fully designed user interface. The frontend is built using React.js, styled with CSS and Material-UI to ensure a modern, responsive layout across devices. The project includes multiple pages designed for smooth navigation, allowing users to browse and interact with clothing items effortlessly. This UI-focused project emphasizes a clean and intuitive design, offering a great user experience for exploring the clothing products.",
+            "githubLink": "https://github.com/0xv1n4y/dcCompars",
+            "technologies": ["ReactJs", "CSS", "MaterialUI"]
         },
         {
             "id": "3",
