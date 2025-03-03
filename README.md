@@ -47,7 +47,7 @@ This is my personal portfolio website built with Next.js and Tailwind CSS. It sh
     Tailwind CSS for fast and responsive UI design.
 🔗 Live Demo
 
-Check out the live version of my portfolio: [Portfolio Website](https://leafy-moonbeam-2c5c9c.netlify.app/)
+Check out the live version of my portfolio: [Portfolio Website](https://vermillion-taiyaki-85739b.netlify.app/)
 📫 Contact Me
 
 If you'd like to get in touch, feel free to contact me via:
