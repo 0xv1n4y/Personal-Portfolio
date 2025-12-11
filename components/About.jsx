@@ -22,7 +22,7 @@ const About = () => {
           </p>
         </Link>
       </div>
-      <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-full p-1 hover:scale-105 ease-in duration-300'>
+      <div className='w-full h-auto m-auto shadow-xl shadow-grey-400 rounded-full p-1 hover:scale-105 ease-in duration-300 '>
         <img src={data.about.profile} className='rounded-full' alt='/' />
       </div>
     </div>
