@@ -1,14 +1,17 @@
 {
-    "home": {
-      "name": "Vinay Surisetty",
-      "title": "A MERN STACK WEB DEVELOPER",
-      "desc": "I’m a MERN full-stack web developer, specializing in building responsive front-end applications with seamless back-end integration. Passionate about delivering user-focused solutions that are scalable, efficient, and high-performing."
-    },
-    "about" : {
-        "aboutme1": "I am Vinay, a skilled MERN Stack Developer with experience building responsive and dynamic web applications using cutting-edge technologies like React.js, Next.js, Node.js, and MongoDB. I have a proven track record of developing scalable RESTful APIs and managing efficient database operations.",
-        "aboutme2": "I am passionate about leveraging my expertise to create seamless user experiences and robust backend solutions. With a growing interest in blockchain technology, I am eager to expand my knowledge in decentralized applications and contribute to innovative projects in the Web3 space.",
-        "profile" : "/assets/About/my-profile.jpg"
-    },
+     "home": {
+        "name": "Vinay Surisetty",
+        "title": "MERN Stack Web Developer",
+        "desc": "I am a MERN Stack Web Developer with 2 years of hands-on experience building responsive, user-centric applications. I specialize in creating modern front-end interfaces, secure back-end systems, and scalable full-stack solutions. Passionate about delivering clean code, seamless user experiences, and impactful digital products."
+        },
+
+        "about": {
+        "aboutme1": "I’m Vinay, a dedicated MERN Stack Developer with strong experience in building fast, responsive, and dynamic web applications using React.js, Next.js, Node.js, Express.js, MongoDB, PostgreSQL, and modern tooling. I have successfully developed scalable RESTful APIs, optimized database structures, integrated authentication systems, and deployed production-ready applications on platforms like Vercel and Render.",
+        
+        "aboutme2": "Beyond full-stack development, I am exploring cloud technologies (AWS) and diving deeper into Web3 and blockchain development to expand my technical horizons. I enjoy solving real-world problems, contributing to impactful projects—including social service initiatives—and continuously improving my craft to deliver reliable, high-quality solutions.",
+        
+        "profile": "/assets/About/profile.jpg"
+        },
     "skills" : [
         {
             "name" : "HTML",
