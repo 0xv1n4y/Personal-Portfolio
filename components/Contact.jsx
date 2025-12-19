@@ -7,6 +7,8 @@ import { FaLinkedinIn, FaGithub  } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Link from 'next/link';
+import dotenv from 'dotenv';
+dotenv.config();  
 
 const Contact = () => {
   const [form, setForm] = useState({
