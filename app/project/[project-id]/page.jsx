@@ -5,11 +5,9 @@ import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import data from '../../../data/data.json';
-import { useRouter } from 'next/navigation';
 
 const Project = () => {
   const params = useParams();
-  const router = useRouter();
   const getId = params['project-id'];
 
   const [project, setProject] = useState(null);
@@ -21,9 +19,6 @@ const Project = () => {
     }
   }, [getId]);
 
-  const handleRouter = (url) => {
-    router.push(url)
-  }
 
   return (
     <div className='w-full'>
@@ -52,8 +47,10 @@ const Project = () => {
               <a href={project.githubLink || '#'} target='_blank' rel='noreferrer'>
                 <button className='px-8 py-2 mt-4 mr-8'>Code</button>
               </a>
-              { project.demo && false && (
-                 <button onClick={() => handleRouter(project.demo)} className='px-8 py-2 mt-4'>Demo</button>
+              { project.live && (
+                <a href={project.live || '#'} target='_blank' rel='noreferrer' >
+                   <button className='px-8 py-2 mt-4'>Live</button>
+                </a> 
               )}
             </div>
 

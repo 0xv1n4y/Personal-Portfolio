@@ -72,6 +72,10 @@
         {
             "name" : "GitHub",
             "image" :"/assets/skills/github1.png"
+        },
+        {
+            "name" : "Wix",
+            "image" :"/assets/skills/wix.png"
         }
     ],
     "projects": [
@@ -85,33 +89,42 @@
             "demo": "/demo/1",
             "desc":"I developed a Real-Time Chat Application using the MERN stack, designed for seamless communication across devices, similar to modern messaging platforms like WhatsApp. The app features real-time one-on-one and group chat functionality, powered by Socket.io for instant messaging and updates. Users can create groups, manage participants, and group admins have control over group settings. The frontend is built with React.js and styled using SCSS for a fully responsive, modern design across mobile, tablet, and desktop. To enhance performance, lazy loading is implemented to load chat messages only when needed, improving app speed and responsiveness. The backend, powered by Node.js and Express.js, handles APIs and real-time communication, while MongoDB stores user data and chat histories. The application also incorporates JWT-based authentication for secure login and session management. Additional features include a typing indicator and optimization for smooth performance on all devices.",
             "githubLink": "https://github.com/0xv1n4y/Realtime-Chat-Application",
+            "live": "https://chat-client-orcin.vercel.app/auth",
             "technologies": ["ReactJs", "SCSS", "NodeJs", "ExpressJs", "MongoDB", "WebSockets", "JWT"]
         },
         {
             "id": "2",
-            "name": "Ecommers-Application",
-            "title": "React JS",
-            "stack": "ReactJs/CSS",
-            "image": "/assets/projects/ecommers.png",
+            "name": "Clinical-Trial-Application-System",
+            "title": "Full Stack Application",
+            "stack": "ReactJs / NodeJs / ExpressJs",
+            "image": "/assets/projects/clinical-trial.png",
             "url": "/project/2",
             "demo": "/demo/2",
-            "desc":"I developed an e-commerce application focused on clothing, with a fully designed user interface. The frontend is built using React.js, styled with CSS and Material-UI to ensure a modern, responsive layout across devices. The project includes multiple pages designed for smooth navigation, allowing users to browse and interact with clothing items effortlessly. This UI-focused project emphasizes a clean and intuitive design, offering a great user experience for exploring the clothing products.",
-            "githubLink": "https://github.com/0xv1n4y/dcCompars",
-            "technologies": ["ReactJs", "CSS", "MaterialUI"]
+            "desc": "I developed a Clinical Trial Application Management System as a full-stack self-learning project to simulate a real-world healthcare and regulatory workflow. The application allows users to submit, edit, view, delete, and download clinical trial applications used for regulatory and academic purposes. Large and complex clinical trial forms are divided into multiple sub-forms on the frontend, combined dynamically on the client side, and stored across multiple structured database tables. The UI features a smooth drawer-based navigation system for easy form section access and a Mantine-powered table for managing submitted applications with edit and delete functionality. The backend is built using Node.js and Express.js, providing RESTful APIs for full CRUD operations. A key feature of the system is dynamic PDF generation, allowing users to download completed applications directly from the platform. This project strengthened my skills in building scalable form-driven applications, backend API design, structured data handling, and real-world PDF generation workflows in a healthcare-focused context.",
+            "githubLink": "https://github.com/your-username/clinical-trial-app",
+            "live": "https://clinicial-trails-client.vercel.app/",
+            "technologies": ["ReactJs", "Mantine UI", "NodeJs", "ExpressJs", "REST APIs", "PDF Generation"]
+            },
+            {
+        "id": "3",
+        "name": "Swashodhan-Trust-Website",
+        "title": "NGO Website Development",
+        "image": "/assets/projects/swashodhan.png",
+        "stack": "Wix / Velo JavaScript",
+        "url": "/project/3",
+        "demo": "/demo/3",
+        "desc": "I designed, developed, and deployed the official website for Swashodhan Trust, a non-profit organization focused on digital education, healthcare, ICT centers, and rural development in India. The project was handled end-to-end by me, including learning the Wix Editor, CMS Collections, and Velo (Corvid) JavaScript from scratch. The website uses CMS-driven dynamic content to manage projects, activities, and village-level updates efficiently. Custom JavaScript was implemented to enhance interactivity beyond standard Wix features. The site includes multilingual support, SEO optimization, and fully responsive layouts. This project gave me hands-on experience in NGO-focused web architecture, transparency-driven design, and accessibility best practices.",
+        "githubLink": "",
+        "live": "https://www.swashodhan.ngo",
+        "technologies": [
+            "Wix Editor",
+            "Velo JavaScript",
+            "CMS Collections",
+            "SEO Optimization",
+            "Responsive Design"
+        ]
         },
-        {
-            "id": "3",
-            "name": "HTML Text Editor",
-            "title": "React JS",
-            "stack": "ReactJs/SASS",
-            "image": "/assets/projects/TextEditor.png",
-            "url": "/project/3",
-            "demo": "/demo/3",
-            "desc":"I recently developed a Live HTML Message Editor using React and React-Quill, designed to make message formatting intuitive and user-friendly. The editor includes features such as bold text, color customization, and text highlighting, enabling users to easily format their messages. As users type, the editor dynamically generates the corresponding HTML and displays it instantly in a live preview pane, allowing them to see the formatted output in real-time.",
-            "githubLink": "https://github.com/0xv1n4y/HTML-Texteditor",
-            "technologies": ["ReactJs", "SASS", "JavaScript", "MaterialUI"]
-        },
-        {
+              {
             "id": "4",
             "name": "Crypto-Tracker",
             "title": "React JS",
@@ -121,8 +134,36 @@
             "demo": "/demo/4",
             "desc":"This web application fetches live cryptocurrency prices in both rupees and US dollars using the CoinGecko API. It displays real-time data, including rank, profit and loss, and integrates Chart.js for graphical representation. User authentication is implemented using Firebase, providing a secure and personalized experience.",
             "githubLink": "https://github.com/0xv1n4y/crypto-world",
+            "live": "https://0xv1n4y.github.io/",
             "technologies": ["ReactJs", "Firebase", "JWT"]
+        },
+
+        {
+            "id": "5",
+            "name": "Ecommers-Application",
+            "title": "React JS",
+            "stack": "ReactJs/CSS",
+            "image": "/assets/projects/ecommers.png",
+            "url": "/project/5",
+            "demo": "/demo/5",
+            "desc":"I developed an e-commerce application focused on clothing, with a fully designed user interface. The frontend is built using React.js, styled with CSS and Material-UI to ensure a modern, responsive layout across devices. The project includes multiple pages designed for smooth navigation, allowing users to browse and interact with clothing items effortlessly. This UI-focused project emphasizes a clean and intuitive design, offering a great user experience for exploring the clothing products.",
+            "githubLink": "https://github.com/0xv1n4y/dcCompars",
+            "technologies": ["ReactJs", "CSS", "MaterialUI"]
+        },
+        {
+            "id": "6",
+            "name": "HTML Text Editor",
+            "title": "React JS",
+            "stack": "ReactJs/SASS",
+            "image": "/assets/projects/TextEditor.png",
+            "url": "/project/6",
+            "demo": "/demo/6",
+            "desc":"I recently developed a Live HTML Message Editor using React and React-Quill, designed to make message formatting intuitive and user-friendly. The editor includes features such as bold text, color customization, and text highlighting, enabling users to easily format their messages. As users type, the editor dynamically generates the corresponding HTML and displays it instantly in a live preview pane, allowing them to see the formatted output in real-time.",
+            "githubLink": "https://github.com/0xv1n4y/HTML-Texteditor",
+            "live": "https://html-texteditor-mu.vercel.app/",
+            "technologies": ["ReactJs", "SASS", "JavaScript", "MaterialUI"]
         }
+      
     ],
     "contact":{
         "name":"Vinay Surisetty",
