@@ -48,7 +48,7 @@ const Project = () => {
                 <button className='px-8 py-2 mt-4 mr-8'>Code</button>
               </a>
               { project.demo.length > 1 && (
-                <a href={project.live || '#'} target='_blank' rel='noreferrer' >
+                <a href={project.demo || '#'} target='_blank' rel='noreferrer' >
                    <button className='px-8 py-2 mt-4'>Live</button>
                 </a> 
               )}

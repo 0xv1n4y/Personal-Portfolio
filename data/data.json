@@ -109,7 +109,7 @@
         "image": "/assets/projects/chat.png",
         "stack": "ReactJs/SASS",
         "url": "/project/2",
-        "demo": "",
+        "demo": "https://chat-client-orcin.vercel.app/auth",
         "desc": "I developed a Real-Time Chat Application using the MERN stack, designed for seamless communication across devices, similar to modern messaging platforms like WhatsApp. The app features real-time one-on-one and group chat functionality, powered by Socket.io for instant messaging and updates. Users can create groups, manage participants, and group admins have control over group settings. The frontend is built with React.js and styled using SCSS for a fully responsive, modern design across mobile, tablet, and desktop. To enhance performance, lazy loading is implemented to load chat messages only when needed, improving app speed and responsiveness. The backend, powered by Node.js and Express.js, handles APIs and real-time communication, while MongoDB stores user data and chat histories. The application also incorporates JWT-based authentication for secure login and session management. Additional features include a typing indicator and optimization for smooth performance on all devices.",
         "githubLink": "https://github.com/0xv1n4y/Realtime-Chat-Application",
         "technologies": [
@@ -145,7 +145,7 @@
         "stack": "ReactJs/SASS",
         "image": "/assets/projects/TextEditor.png",
         "url": "/project/4",
-        "demo": "",
+        "demo": "https://html-texteditor-mu.vercel.app/",
         "desc": "I recently developed a Live HTML Message Editor using React and React-Quill, designed to make message formatting intuitive and user-friendly. The editor includes features such as bold text, color customization, and text highlighting, enabling users to easily format their messages. As users type, the editor dynamically generates the corresponding HTML and displays it instantly in a live preview pane, allowing them to see the formatted output in real-time.",
         "githubLink": "https://github.com/0xv1n4y/HTML-Texteditor",
         "technologies": [
@@ -162,7 +162,7 @@
         "stack": "ReactJs",
         "image": "/assets/projects/crypto-world.png",
         "url": "/project/5",
-        "demo": "",
+        "demo": "https://0xv1n4y.github.io/crypto-world/",
         "desc": "This web application fetches live cryptocurrency prices in both rupees and US dollars using the CoinGecko API. It displays real-time data, including rank, profit and loss, and integrates Chart.js for graphical representation. User authentication is implemented using Firebase, providing a secure and personalized experience.",
         "githubLink": "https://github.com/0xv1n4y/crypto-world",
         "technologies": [
@@ -170,6 +170,26 @@
             "Firebase",
             "JWT"
         ]
+    },{
+    "id": "6",
+    "name": "Clinical-Trial-Application-Management-System",
+    "title": "MERN Stack",
+    "image": "/assets/projects/clinical-trial.png",
+    "stack": "ReactJs/Mantine/NodeJs",
+    "url": "/project/6",
+    "demo": "https://clinicial-trails-client.vercel.app/",
+    "desc": "I developed a Clinical Trial Application Management System as a self-learning full-stack project focused on managing regulatory and academic clinical trial applications. The system allows users to submit, edit, delete, view, and download clinical trial applications efficiently. Large application forms are divided into multiple sub-forms for better usability, then combined on the client side and stored across multiple database tables for structured data management. The frontend is built using React.js with Mantine UI components, featuring smooth drawer-based navigation for switching between form sections and Mantine Table for displaying and managing application records. The backend is powered by Node.js and Express.js, providing RESTful APIs for complete CRUD operations and dynamic PDF generation for downloading submitted applications. This project helped me strengthen my skills in frontend UI/UX design, backend API architecture, structured database handling, and real-world healthcare workflow simulation.",
+    "githubLink": "https://github.com/0xv1n4y/Clinicial-Trails-Client",
+    "technologies": [
+        "ReactJs",
+        "MantineUI",
+        "NodeJs",
+        "ExpressJs",
+        "MongoDB",
+        "RESTAPI",
+        "PDFGeneration",
+        "JavaScript"
+    ]
     }
 ],
     "contact":{
